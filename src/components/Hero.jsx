@@ -1,5 +1,5 @@
 import './Hero.css';
-import resumeFile from '../assets/Manojresume.pdf';
+import resumeFile from '../assets/ManojResume.pdf';
 
 const Hero = () => {
   return (
@@ -10,7 +10,7 @@ const Hero = () => {
         <p>Welcome to my portfolio! I am passionate about building beautiful and functional user interfaces.</p>
 
         <div className="hero-buttons">
-          <a href={resumeFile} download className="btn btn-primary">Download Resume</a>
+          < a href={resumeFile} download className="btn btn-primary">Download Resume</a>
         </div>
       </div>
     </section>
