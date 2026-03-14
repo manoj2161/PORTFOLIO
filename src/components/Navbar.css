@@ -1,0 +1,38 @@
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Pushes brand to left and links to right */
+  align-items: center; /* Vertically centers the items */
+  background-color: #242424; /* Dark background */
+  color: white;
+  padding: 1rem 5%; /* Padding on top/bottom and left/right */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand h1 {
+  margin: 0;
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+}
+
+.navbar-links {
+  display: flex;
+  list-style: none; /* Removes bullet points */
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links li {
+  margin-left: 2rem; /* Creates space between the links */
+}
+
+.navbar-links a {
+  color: #e0e0e0;
+  text-decoration: none; /* Removes underlines from links */
+  font-size: 1.1rem;
+  font-weight: 500;
+  transition: color 0.3s ease; /* Smooth hover effect */
+}
+
+.navbar-links a:hover {
+  color: #646cff; /* React blueish accent color on hover */
+}
