@@ -8,7 +8,7 @@ const Hero = () => {
         <h1>
           Hello, I am <span className="highlight">Manoj Kumar</span>
         </h1>
-        <h2>A Frontend Developer & BCA Graduate</h2>
+        <h2>A Frontend Developer</h2>
         <p>
           Welcome to my portfolio! I am passionate about building beautiful and
           functional user interfaces.

@@ -37,7 +37,7 @@ const Footer = () => {
 
       <div className="footer-bottom">
         <p>&copy; {currentYear} Manoj Kumar. All rights reserved.</p>
-        <p className="made-with">Built with React & ❤️</p>
+        <p className="made-with">Built with ❤️</p>
       </div>
     </footer>
   );

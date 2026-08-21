@@ -8,7 +8,7 @@ const Projects = () => {
       description:
         "A complete frontend clone of the Flipkart e-commerce homepage, built with HTML and CSS.",
       tech: ["HTML", "CSS"],
-      link: "https://flipkart-clone-sepia-iota.vercel.app/", // Add actual link later
+      link: "#",
     },
     {
       id: 2,
@@ -24,7 +24,7 @@ const Projects = () => {
       description:
         "A personal portfolio built using React and modern CSS features to showcase my work, skills, and resume.",
       tech: ["React", "CSS"],
-      link: "#", // Add actual link later
+      link: "#",
     },
   ];
 
