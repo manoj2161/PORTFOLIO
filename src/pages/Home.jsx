@@ -8,7 +8,7 @@ import { projects } from "../data/projects";
 function Home() {
   return (
     <div>
-      <section className="grid border-b-4 border-black lg:grid-cols-[1.2fr_0.8fr]">
+      <section className="grid border-x-4 border-black lg:grid-cols-[1.2fr_0.8fr]">
         <div className="reveal border-b-4 border-black p-5 sm:p-8 lg:border-b-0 lg:border-r-4 lg:p-10">
           <SectionLabel>Identity / Frontend</SectionLabel>
           <p className="mt-12 font-mono text-xs font-bold uppercase tracking-[0.16em]">
@@ -123,7 +123,7 @@ function Home() {
 
       <section className="border-y-4 border-black bg-white">
         <div className="grid lg:grid-cols-[1fr_1fr]">
-          <Reveal className="border-b-4 border-black p-6 sm:p-10 lg:border-b-0 lg:border-r-4 lg:p-14">
+          <Reveal className="border-x-4 border-b-4 border-black p-6 sm:p-10 lg:border-b-0 lg:border-r-4 lg:p-14">
             <SectionLabel number="02">Developer Statement</SectionLabel>
             <p className="mt-10 max-w-xl text-4xl font-black uppercase leading-[0.92] tracking-[-0.055em] sm:text-6xl">
               I like turning ideas into interfaces that people can actually use.
@@ -131,7 +131,7 @@ function Home() {
           </Reveal>
           <Reveal
             delay={120}
-            className="flex flex-col justify-between p-6 sm:p-10 lg:p-14"
+            className="border-x-4 flex flex-col justify-between p-6 sm:p-10 lg:p-14"
           >
             <p className="max-w-lg text-base leading-7 sm:text-lg">
               I am focused on practical applications, responsive UI, React, and

@@ -7,8 +7,8 @@ const skills = ["HTML", "CSS", "JavaScript", "React", "Tailwind CSS"];
 function About() {
   return (
     <div className="w-full py-12 lg:py-20">
-      <div className="grid gap-8 lg:grid-cols-[0.32fr_1fr]">
-        <Reveal className="px-0 lg:pl-0">
+      <div className="gap-8 lg:grid-cols-[0.32fr_1fr]">
+        <Reveal className="px-0 lg:pl-0 pb-4">
           <SectionLabel>About / Me</SectionLabel>
         </Reveal>
         <div>

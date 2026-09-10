@@ -12,8 +12,8 @@ const contacts = [
 function Contact() {
   return (
     <div className="w-full py-12 lg:py-20">
-      <div className="grid gap-10 lg:grid-cols-[0.32fr_1fr]">
-        <Reveal><SectionLabel number="03">Contact / Connect</SectionLabel></Reveal>
+      <div className="">
+        <Reveal className='pb-2'><SectionLabel>Contact / Connect</SectionLabel></Reveal>
         <div>
           <Reveal className="border-4 border-black bg-black p-6 text-white sm:p-10 lg:p-14">
             <p className="font-mono text-xs font-bold uppercase">OPEN TO OPPORTUNITIES</p>

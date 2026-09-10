@@ -20,7 +20,7 @@ function ScrollToTop() {
 
 function App() {
   return (
-    <div className="min-h-screen overflow-x-hidden bg-white text-black">
+    <div className="min-h-screen overflow-x-hidden bg-white text-black px-16">
       <ScrollToTop />
       <Navbar />
       <main>
