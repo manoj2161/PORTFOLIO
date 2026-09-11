@@ -1,25 +1,26 @@
 import ArrowLink from "./ArrowLink";
 
-function ProjectCard({ project, featured = false }) {
+function ProjectCard({ project }) {
   return (
-    <article
-      className={`group border-4 border-black bg-white transition duration-500 ease-out hover:-translate-y-2 hover:shadow-[10px_10px_0_0_#000] ${featured ? "lg:grid lg:grid-cols-[150px_1fr]" : ""}`}
-    >
-      <div className="border-b-4 border-black bg-black p-5 text-white lg:border-b-0 lg:border-r-4">
+    <article className="group border-4 border-black bg-white transition duration-500 ease-out hover:-translate-y-2 hover:shadow-[10px_10px_0_0_#000] lg:flex">
+      <div className="flex-shrink-0 border-b-4 border-black bg-black p-5 text-white lg:w-[125px] lg:border-b-0 lg:border-r-4">
         <p className="font-mono text-xs font-bold uppercase">PROJECT</p>
+
         <p className="mt-1 text-6xl font-black leading-none tracking-[-0.08em] transition-transform duration-500 group-hover:translate-x-2 sm:text-7xl">
           {project.number}
         </p>
+
         <p className="mt-8 font-mono text-[10px] font-bold uppercase">
           STATUS: {project.status}
         </p>
       </div>
 
-      <div className="flex flex-col p-5 sm:p-7">
+      <div className="flex flex-1 flex-col p-5 sm:p-7">
         <div className="flex items-start justify-between gap-4">
           <h2 className="max-w-3xl text-3xl font-black uppercase leading-[0.9] tracking-[-0.055em] transition-transform duration-500 group-hover:translate-x-1 sm:text-4xl">
             {project.name}
           </h2>
+
           <span className="hidden font-mono text-2xl transition-transform duration-500 group-hover:translate-x-2 group-hover:-translate-y-1 sm:block">
             ↗
           </span>
@@ -50,6 +51,7 @@ function ProjectCard({ project, featured = false }) {
               Live — Coming Soon
             </span>
           )}
+
           {project.github ? (
             <ArrowLink to={project.github} external>
               GitHub
