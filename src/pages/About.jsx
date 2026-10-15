@@ -2,7 +2,18 @@ import ArrowLink from "../components/ArrowLink";
 import Reveal from "../components/Reveal";
 import SectionLabel from "../components/SectionLabel";
 
-const skills = ["HTML", "CSS", "JavaScript", "React", "Tailwind CSS"];
+const skills = [
+  "HTML",
+  "CSS",
+  "JavaScript",
+  "TypeScript",
+  "React",
+  "Tailwind CSS",
+  "Node.js",
+  "Express.js",
+  "MongoDB",
+  "REST APIs",
+];
 
 function About() {
   return (
@@ -17,14 +28,17 @@ function About() {
             <h1 className="mt-7 max-w-5xl text-5xl font-black uppercase leading-[0.82] tracking-[-0.07em] sm:text-7xl lg:text-8xl">
               Frontend first.
               <br />
-              MERN next.
+              Full stack next.
             </h1>
             <p className="mt-10 max-w-3xl text-base leading-7 sm:text-lg">
-              I am a BCA graduate focused on frontend development. I enjoy
-              building practical applications and turning requirements into
-              responsive, interactive interfaces. I am currently a MERN Trainee
-              at Apnitor Solutions, Mohali, and learning the MERN stack through
-              hands-on development.
+              I am a BCA graduate and MERN Stack Trainee at Apnitor Solutions,
+              Mohali, focused on building responsive and interactive web
+              applications. I work with React, JavaScript, TypeScript, and
+              Tailwind CSS on the frontend, while developing my backend skills
+              with Node.js, Express.js, MongoDB, and REST APIs. Through hands-on
+              projects like Habitly and Campusly, I am learning to build
+              complete applications, implement authentication, integrate APIs,
+              and write clean, maintainable code.
             </p>
           </Reveal>
 
@@ -76,11 +90,12 @@ function About() {
             >
               <SectionLabel number="03">Direction</SectionLabel>
               <p className="mt-10 text-4xl font-black uppercase leading-[0.88] tracking-[-0.05em]">
-                Looking for a developer role.
+                Looking for a junior MERN role.
               </p>
               <p className="mt-6 text-sm leading-6 text-white/75">
-                The goal is simple: keep building useful products, strengthen
-                MERN skills, and contribute to real development work.
+                My goal is to build real-world applications, strengthen my
+                full-stack development skills, and contribute to a development
+                team where I can learn, solve problems, and grow as a developer.
               </p>
               <div className="mt-8 text-black">
                 <ArrowLink to="/projects">See My Work</ArrowLink>

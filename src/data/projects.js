@@ -18,7 +18,7 @@ export const projects = [
   github: "https://github.com/manoj2161/habitly-mern-project.git",
   live: "https://habitlyx.vercel.com",
   status: "LIVE",
-}
+},
   {
     number: "02",
     name: "College Event Registration Portal",
