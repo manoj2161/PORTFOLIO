@@ -16,7 +16,7 @@ export const projects = [
     "bcrypt"
   ],
   github: "https://github.com/manoj2161/habitly-mern-project.git",
-  live: "https://habitlyx.vercel.com",
+  live: "https://habitlyx.vercel.app",
   status: "LIVE",
 },
   {
