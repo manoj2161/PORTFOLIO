@@ -16,8 +16,10 @@ function Projects() {
               INDEX
             </h1>
             <p className="mt-7 max-w-2xl text-base leading-7">
-              A collection of practical web applications. No filler projects —
-              just work that represents what I am learning and building.
+              A collection of projects built while learning full-stack
+              development, from responsive React interfaces to backend APIs,
+              database integration, authentication, and practical application
+              features.
             </p>
           </div>
         </div>

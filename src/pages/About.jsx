@@ -8,11 +8,18 @@ const skills = [
   "JavaScript",
   "TypeScript",
   "React",
+  "React Router",
+  "Context API",
   "Tailwind CSS",
+  "API Integration",
   "Node.js",
   "Express.js",
   "MongoDB",
+  "Mongoose",
   "REST APIs",
+  "JWT Authentication",
+  "bcrypt",
+  "Git & GitHub",
 ];
 
 function About() {
@@ -32,13 +39,13 @@ function About() {
             </h1>
             <p className="mt-10 max-w-3xl text-base leading-7 sm:text-lg">
               I am a BCA graduate and MERN Stack Trainee at Apnitor Solutions,
-              Mohali, focused on building responsive and interactive web
-              applications. I work with React, JavaScript, TypeScript, and
-              Tailwind CSS on the frontend, while developing my backend skills
-              with Node.js, Express.js, MongoDB, and REST APIs. Through hands-on
-              projects like Habitly and Campusly, I am learning to build
-              complete applications, implement authentication, integrate APIs,
-              and write clean, maintainable code.
+              Mohali. I focus on building responsive interfaces with React,
+              JavaScript, TypeScript, and Tailwind CSS while developing
+              full-stack skills with Node.js, Express.js, MongoDB, and REST APIs.
+              I learn by building practical projects, integrating APIs,
+              implementing authentication, debugging issues, and improving my
+              code. My projects include Habitly, a habit-tracking application,
+              and Campusly, a college event registration portal.
             </p>
           </Reveal>
 
@@ -93,9 +100,9 @@ function About() {
                 Looking for a junior MERN role.
               </p>
               <p className="mt-6 text-sm leading-6 text-white/75">
-                My goal is to build real-world applications, strengthen my
-                full-stack development skills, and contribute to a development
-                team where I can learn, solve problems, and grow as a developer.
+                I want to contribute to real-world applications, strengthen my
+                full-stack development skills, and work with a team where I can
+                solve problems, learn from feedback, and grow as a developer.
               </p>
               <div className="mt-8 text-black">
                 <ArrowLink to="/projects">See My Work</ArrowLink>

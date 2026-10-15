@@ -1,31 +1,42 @@
 export const projects = [
- {
-  number: "01",
-  name: "Habitly",
-  description:
-    "A full-stack MERN habit-tracking application that allows users to create, manage, and track habits with daily completion records, progress statistics, streak tracking, and a monthly calendar. Features secure authentication with email verification, password reset, protected routes, account settings, dark mode, and an integrated AI assistant to help users understand the project.",
-  technologies: [
-    "React",
-    "Tailwind CSS",
-    "JavaScript",
-    "Node.js",
-    "Express.js",
-    "MongoDB",
-    "Mongoose",
-    "JWT",
-    "bcrypt"
-  ],
-  github: "https://github.com/manoj2161/habitly-mern-project.git",
-  live: "https://habitlyx.vercel.app",
-  status: "LIVE",
-},
+  {
+    number: "01",
+    name: "Habitly",
+    description:
+      "A full-stack MERN habit tracker for creating and managing habits, recording daily completions, monitoring streaks, viewing progress statistics, and reviewing activity on a monthly calendar. It includes user authentication, email verification, password recovery, account settings, dark mode, and an integrated AI project assistant.",
+    technologies: [
+      "React",
+      "Tailwind CSS",
+      "JavaScript",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Mongoose",
+      "JWT",
+      "bcrypt",
+      "REST APIs"
+    ],
+    github: "https://github.com/manoj2161/habitly-mern-project.git",
+    live: "https://habitlyx.vercel.com",
+    status: "LIVE",
+  },
   {
     number: "02",
-    name: "College Event Registration Portal",
+    name: "Campusly",
     description:
-      "A web portal where students can participate in college events, organisers can organise and manage events, and admins can manage organisers, students, and events.",
-    technologies: ["HTML", "CSS", "JavaScript"],
-    github: "https://github.com/manoj2161/EVENT-REGISTRATION-PORTAL",
+      "A full-stack college event registration portal that helps students discover events and register, while organisers manage events and administrators manage students, organisers, and event registration data.",
+    technologies: [
+      "React",
+      "Tailwind CSS",
+      "JavaScript",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Mongoose",
+      "JWT",
+      "REST APIs"
+    ],
+    github: "https://github.com/manoj2161/College_Event_Registration_Portal",
     live: "https://event-registration-portal-one.vercel.app",
     status: "LIVE",
   },
@@ -33,7 +44,7 @@ export const projects = [
     number: "03",
     name: "RecipeBox",
     description:
-      "A recipe application that fetches recipes, lets users save recipes, provides ingredients and cooking instructions, and includes a shopping-list page.",
+      "A recipe application that fetches recipes from an API, displays ingredients and cooking instructions, lets users save recipes, and provides a shopping-list page.",
     technologies: ["React", "Tailwind CSS", "Axios", "API integration"],
     github: "https://github.com/manoj2161/recipebox",
     live: "https://recipebox-zeta-five.vercel.app/",
