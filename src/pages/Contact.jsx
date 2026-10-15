@@ -18,7 +18,7 @@ function Contact() {
           <Reveal className="border-4 border-black bg-black p-6 text-white sm:p-10 lg:p-14">
             <p className="font-mono text-xs font-bold uppercase">OPEN TO OPPORTUNITIES</p>
             <h1 className="mt-8 text-6xl font-black uppercase leading-[0.76] tracking-[-0.08em] sm:text-8xl lg:text-9xl">LET'S<br />TALK.</h1>
-            <p className="mt-10 max-w-2xl text-base leading-7 text-white/75 sm:text-lg">Looking for a developer role and opportunities to build practical web applications. The fastest way to reach me is email.</p>
+            <p className="mt-10 max-w-2xl text-base leading-7 text-white/75 sm:text-lg">Open to junior MERN Stack Developer opportunities where I can contribute to real projects, strengthen my full-stack skills, and keep learning with a development team. The fastest way to reach me is email.</p>
           </Reveal>
 
           <Reveal delay={100} className="mt-8 border-4 border-black">
