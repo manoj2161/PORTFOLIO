@@ -10,7 +10,7 @@ function Home() {
     <div>
       <section className="grid border-x-4 border-black lg:grid-cols-[1.2fr_0.8fr]">
         <div className="reveal border-b-4 border-black p-5 sm:p-8 lg:border-b-0 lg:border-r-4 lg:p-10">
-          <SectionLabel>Identity / Frontend</SectionLabel>
+          <SectionLabel>Identity / MERN Stack</SectionLabel>
           <p className="mt-12 font-mono text-xs font-bold uppercase tracking-[0.16em]">
             AVAILABLE FOR OPPORTUNITIES
           </p>
@@ -19,11 +19,12 @@ function Home() {
           </h1>
           <div className="mt-7 border-t-4 border-black pt-5">
             <p className="text-3xl font-black uppercase leading-none tracking-[-0.04em] sm:text-5xl">
-              React Developer
+              Junior MERN Developer
             </p>
             <p className="mt-5 max-w-2xl text-base leading-7 sm:text-lg">
-              I build web applications with React and Tailwind and make them
-              responsive, good-looking, and interactive.
+              I build responsive web interfaces with React and Tailwind CSS
+              and develop full-stack applications using Node.js, Express.js,
+              MongoDB, and REST APIs.
             </p>
           </div>
         </div>
@@ -55,7 +56,7 @@ function Home() {
               FOCUS
             </span>
             <p className="mt-7 text-2xl font-black uppercase leading-none">
-              PRACTICAL
+              FULL-STACK
               <br />
               APPS
             </p>
@@ -65,11 +66,11 @@ function Home() {
               STACK / CURRENT
             </span>
             <p className="mt-5 font-mono text-xs font-bold uppercase leading-7">
-              HTML / CSS / JAVASCRIPT
+              HTML / CSS / JAVASCRIPT / TYPESCRIPT
               <br />
               REACT / TAILWIND CSS
               <br />
-              LEARNING: MERN STACK
+              NODE.JS / EXPRESS / MONGODB / REST APIS
             </p>
           </div>
         </div>
@@ -81,12 +82,10 @@ function Home() {
       >
         <div className="ticker-track flex w-max font-mono text-sm font-bold uppercase tracking-[0.15em]">
           <span className="px-5">
-            BUILD PRACTICAL WEB APPLICATIONS ★ REACT DEVELOPER ★ RESPONSIVE UI
-            ★{" "}
+            BUILD FULL-STACK WEB APPLICATIONS ★ REACT ★ NODE.JS ★ REST APIS ★{" "}
           </span>
           <span className="px-5">
-            BUILD PRACTICAL WEB APPLICATIONS ★ REACT DEVELOPER ★ RESPONSIVE UI
-            ★{" "}
+            BUILD FULL-STACK WEB APPLICATIONS ★ REACT ★ NODE.JS ★ REST APIS ★{" "}
           </span>
         </div>
       </div>
@@ -126,7 +125,7 @@ function Home() {
           <Reveal className="border-x-4 border-b-4 border-black p-6 sm:p-10 lg:border-b-0 lg:border-r-4 lg:p-14">
             <SectionLabel number="02">Developer Statement</SectionLabel>
             <p className="mt-10 max-w-xl text-4xl font-black uppercase leading-[0.92] tracking-[-0.055em] sm:text-6xl">
-              I like turning ideas into interfaces that people can actually use.
+              I like turning ideas into useful applications people can actually use.
             </p>
           </Reveal>
           <Reveal
@@ -134,9 +133,10 @@ function Home() {
             className="border-x-4 flex flex-col justify-between p-6 sm:p-10 lg:p-14"
           >
             <p className="max-w-lg text-base leading-7 sm:text-lg">
-              I am focused on practical applications, responsive UI, React, and
-              learning the MERN stack through hands-on work. I am looking for a
-              developer role where I can keep building and improving.
+              I learn by building real projects, solving problems, and improving
+              my code. My current focus is React, backend APIs, authentication,
+              database integration, and writing clean, maintainable MERN
+              applications.
             </p>
             <div className="mt-12">
               <ArrowLink to="/contact">Start a Conversation</ArrowLink>
